@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Aitihya - The Heritage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,87 +11,107 @@
     />
   </head>
   <body>
-    <nav>
-      <a href="/">
-        <img class="logo" src="assets/img/logo.jpeg" alt="Aitihya logo" />
-      </a>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li><a href="about-us.html">About us</a></li>
-        <li><a href="for-contributors.html">For contributors</a></li>
-        <li><a class="active" href="archives.html">Archives</a></li>
-      </ul>
-      <a
-        class="link-button"
-        href="https://dl.aitihyatheheritage.in/"
-        target="_bank"
-        >Digital Library</a
-      >
-    </nav>
-    <section class="text-section">
-      <h3>2022</h3>
-      <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
-      <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
-      <div class="seperator"></div>
-      <h3>2021</h3>
-      <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
-      <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
-      <div class="seperator"></div>
-      <h3>2020</h3>
-      <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
-      <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
-      <div class="seperator"></div>
-      <h3>2019</h3>
-      <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
-      <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
-      <div class="seperator"></div>
-      <h3>2018</h3>
-      <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
-      <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
-      <div class="seperator"></div>
-      <h3>2017</h3>
-      <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
-      <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
-      <div class="seperator"></div>
-      <h3>2016</h3>
-      <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
-      <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
-      <div class="seperator"></div>
-      <h3>2015</h3>
-      <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
-      <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
-      <div class="seperator"></div>
-      <h3>2014</h3>
-      <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
-      <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
-      <div class="seperator"></div>
-      <h3>2013</h3>
-      <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
-      <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
-      <div class="seperator"></div>
-      <h3>2012</h3>
-      <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
-      <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
-      <div class="seperator"></div>
-      <h3>2011</h3>
-      <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
-      <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
-    </section>
-    <br />
-    <br />
-    <footer>
-      <p>Aitihya The Heritage</p>
-      <p>
-        Follow us on
-        <a
-          href="https://www.facebook.com/Aitihya-The-Heritage-124996170916716"
-          target="_blank"
-          >Facebook</a
-        >
-      </p>
-    </footer>
+    <div class="wrapper">
+      <nav>
+        <a href="/">
+          <img class="logo" src="assets/img/logo.jpeg" alt="Aitihya logo" />
+        </a>
+        <ul class="hide-on-mobile">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li><a href="about-us.html">About us</a></li>
+          <li><a href="for-contributors.html">For contributors</a></li>
+          <li><a class="active" href="archives.html">Archives</a></li>
+        </ul>
+        <div class="hide-on-desktop">
+          <div id="show-mobile-nav">
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+          </div>
+          <div id="mobile-nav">
+            <ul class="mobile-nav-list">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li><a href="about-us.html">About us</a></li>
+              <li><a href="for-contributors.html">For contributors</a></li>
+              <li><a class="active" href="archives.html">Archives</a></li>
+              <li><a id="close-mobile-nav" href="#">x Close menu</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- <a
+          class="link-button"
+          href="https://dl.aitihyatheheritage.in/"
+          target="_bank"
+          >Digital Library</a
+        > -->
+      </nav>
+      <section class="text-section">
+        <h3>2022</h3>
+        <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
+        <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
+        <div class="seperator"></div>
+        <h3>2021</h3>
+        <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
+        <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
+        <div class="seperator"></div>
+        <h3>2020</h3>
+        <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
+        <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
+        <div class="seperator"></div>
+        <h3>2019</h3>
+        <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
+        <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
+        <div class="seperator"></div>
+        <h3>2018</h3>
+        <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
+        <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
+        <div class="seperator"></div>
+        <h3>2017</h3>
+        <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
+        <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
+        <div class="seperator"></div>
+        <h3>2016</h3>
+        <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
+        <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
+        <div class="seperator"></div>
+        <h3>2015</h3>
+        <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
+        <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
+        <div class="seperator"></div>
+        <h3>2014</h3>
+        <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
+        <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
+        <div class="seperator"></div>
+        <h3>2013</h3>
+        <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
+        <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
+        <div class="seperator"></div>
+        <h3>2012</h3>
+        <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
+        <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
+        <div class="seperator"></div>
+        <h3>2011</h3>
+        <a href="">Cover page of Vol-XIII, Issue-1, 2022</a><br />
+        <a href="">All Abstracts of Vol-XIII, Issue-1, 2022 </a>
+      </section>
+      <br />
+      <br />
+      <footer>
+        <p><strong>Aitihya The Heritage</strong></p>
+        <p>
+          Follow us on
+          <a
+            href="https://www.facebook.com/Aitihya-The-Heritage-124996170916716"
+            target="_blank"
+            >Facebook</a
+          >
+        </p>
+      </footer>
+    </div>
     <script type="text/javascript" src="assets/js/index.js"></script>
   </body>
 </html>

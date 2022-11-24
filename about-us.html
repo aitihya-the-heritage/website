@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Aitihya - The Heritage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,100 +11,122 @@
     />
   </head>
   <body>
-    <nav>
-      <a href="/">
-        <img class="logo" src="assets/img/logo.jpeg" alt="Aitihya logo" />
-      </a>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li><a class="active" href="about-us.html">About us</a></li>
-        <li><a href="for-contributors.html">For contributors</a></li>
-        <li><a href="archives.html">Archives</a></li>
-      </ul>
-      <a
-        class="link-button"
-        href="https://dl.aitihyatheheritage.in/"
-        target="_bank"
-        >Digital Library</a
-      >
-    </nav>
-    <section class="text-section">
-      <div class="simple-banner">
-        <p><strong>EDITORIAL BOARD</strong></p>
-        <a href="">Download details of the editorial board for 2022</a>
-        <br />
-        <br />
-        <p class="text-small">Updated on 10th August 2022</p>
-      </div>
-      <h3>Aitihya The Heritage</h3>
-      <p>
-        A Multi-lingual Research Journal on Indology in English, Bengali, and
-        Assamese, pertaining to the discipline of humanities is published by
-        Aitihya Samstha Foundation, of Guwahati, Assam, India.
-      </p>
-      <p>
-        It is a bi-annual (half-yearly) publication that is published during the
-        month of March-April and September-October every year. It is a peer
-        reviewed (refereed) research journal which is referred to by different
-        Universities in West-Bengal, Assam, Tripura, Meghalaya, New-Delhi etc.
-        The Journal encourages high quality research papers in any one of the
-        above mentioned three languages, on any topic within the discipline of
-        Humanities, particularly related to India, after being thoroughly
-        scrutinized by the Editorial Board and by the recommendation of the
-        respective experts in the corresponding fields. Throughout the years,
-        right from the time of its first publication in the year 2010 till the
-        present day having published its issue no. 24 ( Vol.XIII, Issue-1, 2022)
-        the journal has received a very high applause from the researcher
-        community including scholars and academicians from different parts of
-        India and abroad.
-      </p>
-      <p>
-        Of recent, more than 400 Colleges and Universities in Assam,
-        West-Bengal, Tripura, Meghalaya, Jharkhand, Orissa, and New-Delhi have
-        their subscription to this journal on a regular basis.
-      </p>
-      <div class="seperator"></div>
-      <h3>Mission & vision</h3>
-      <p>
-        The existence of every living and non-living entity in the universe is
-        directed by a ‘mission’, a ‘vision’ which in other words can be termed
-        as a ‘purpose’. As such the subsistence of a journal cannot be debarred
-        from such a purpose. From the earliest times a journal in different
-        nations and countries has been the prime reflector or mode of expressing
-        the sentiments, need, feelings and emotions, urgent issues to do with
-        human civilization. It carries in its shoulders a responsibility towards
-        the society, towards the nation, towards the universe at large.
-        Aithiya-The Heritage is conceptualized with such a purpose to come to
-        terms with certain issues of the present times—the most important being
-        realizing and retaining one’s identity which is in culmination with
-        one’s heritage. Under the face of growing changes that are taking place
-        every now and then it is important and necessary to accept the changes
-        with an eye on retaining one’s originality, one’s tradition.
-      </p>
-      <p>
-        History has shown how the rich heritage of our country has attracted
-        outsiders from far of land who tried to invade it, western scholars who
-        have researched on the resources of our country realizing its rich
-        heritage. It is hoped that the journal will help in realizing the rich
-        Indian heritage thus adding to classical scholarship and research that
-        would enhance further the development of our country in scholarly terms.
-      </p>
-    </section>
-    <br />
-    <br />
-    <footer>
-      <p>Aitihya The Heritage</p>
-      <p>
-        Follow us on
-        <a
-          href="https://www.facebook.com/Aitihya-The-Heritage-124996170916716"
-          target="_blank"
-          >Facebook</a
-        >
-      </p>
-    </footer>
+    <div class="wrapper">
+      <nav>
+        <a href="/">
+          <img class="logo" src="assets/img/logo.jpeg" alt="Aitihya logo" />
+        </a>
+        <ul class="hide-on-mobile">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li><a class="active" href="about-us.html">About us</a></li>
+          <li><a href="for-contributors.html">For contributors</a></li>
+          <li><a href="archives.html">Archives</a></li>
+        </ul>
+        <div class="hide-on-desktop">
+          <div id="show-mobile-nav">
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+          </div>
+          <div id="mobile-nav">
+            <ul class="mobile-nav-list">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li><a class="active" href="about-us.html">About us</a></li>
+              <li><a href="for-contributors.html">For contributors</a></li>
+              <li><a href="archives.html">Archives</a></li>
+              <li><a id="close-mobile-nav" href="#">x Close menu</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- <a
+          class="link-button"
+          href="https://dl.aitihyatheheritage.in/"
+          target="_bank"
+          >Digital Library</a
+        > -->
+      </nav>
+      <section class="text-section">
+        <div class="simple-banner">
+          <p><strong>EDITORIAL BOARD</strong></p>
+          <a href="">Download details of the editorial board for 2022</a>
+          <br />
+          <br />
+          <p class="text-small">Updated on 10th August 2022</p>
+        </div>
+        <h3>Aitihya The Heritage</h3>
+        <p>
+          A Multi-lingual Research Journal on Indology in English, Bengali, and
+          Assamese, pertaining to the discipline of humanities is published by
+          Aitihya Samstha Foundation, of Guwahati, Assam, India.
+        </p>
+        <p>
+          It is a bi-annual (half-yearly) publication that is published during
+          the month of March-April and September-October every year. It is a
+          peer reviewed (refereed) research journal which is referred to by
+          different Universities in West-Bengal, Assam, Tripura, Meghalaya,
+          New-Delhi etc. The Journal encourages high quality research papers in
+          any one of the above mentioned three languages, on any topic within
+          the discipline of Humanities, particularly related to India, after
+          being thoroughly scrutinized by the Editorial Board and by the
+          recommendation of the respective experts in the corresponding fields.
+          Throughout the years, right from the time of its first publication in
+          the year 2010 till the present day having published its issue no. 24 (
+          Vol.XIII, Issue-1, 2022) the journal has received a very high applause
+          from the researcher community including scholars and academicians from
+          different parts of India and abroad.
+        </p>
+        <p>
+          Of recent, more than 400 Colleges and Universities in Assam,
+          West-Bengal, Tripura, Meghalaya, Jharkhand, Orissa, and New-Delhi have
+          their subscription to this journal on a regular basis.
+        </p>
+        <div class="seperator"></div>
+        <h3>Mission & vision</h3>
+        <p>
+          The existence of every living and non-living entity in the universe is
+          directed by a ‘mission’, a ‘vision’ which in other words can be termed
+          as a ‘purpose’. As such the subsistence of a journal cannot be
+          debarred from such a purpose. From the earliest times a journal in
+          different nations and countries has been the prime reflector or mode
+          of expressing the sentiments, need, feelings and emotions, urgent
+          issues to do with human civilization. It carries in its shoulders a
+          responsibility towards the society, towards the nation, towards the
+          universe at large. Aithiya-The Heritage is conceptualized with such a
+          purpose to come to terms with certain issues of the present times—the
+          most important being realizing and retaining one’s identity which is
+          in culmination with one’s heritage. Under the face of growing changes
+          that are taking place every now and then it is important and necessary
+          to accept the changes with an eye on retaining one’s originality,
+          one’s tradition.
+        </p>
+        <p>
+          History has shown how the rich heritage of our country has attracted
+          outsiders from far of land who tried to invade it, western scholars
+          who have researched on the resources of our country realizing its rich
+          heritage. It is hoped that the journal will help in realizing the rich
+          Indian heritage thus adding to classical scholarship and research that
+          would enhance further the development of our country in scholarly
+          terms.
+        </p>
+      </section>
+      <br />
+      <br />
+      <footer>
+        <p><strong>Aitihya The Heritage</strong></p>
+        <p>
+          Follow us on
+          <a
+            href="https://www.facebook.com/Aitihya-The-Heritage-124996170916716"
+            target="_blank"
+            >Facebook</a
+          >
+        </p>
+      </footer>
+    </div>
     <script type="text/javascript" src="assets/js/index.js"></script>
   </body>
 </html>
