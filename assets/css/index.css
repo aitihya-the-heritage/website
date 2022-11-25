@@ -454,6 +454,12 @@ Responsive Design
     margin-bottom: 2em;
   }
 
+  .support-link-container {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+  }
+
   .text-section {
     width: 100%;
   }
