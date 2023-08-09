@@ -224,10 +224,11 @@ section h1 {
 
 .link-button {
   text-decoration: none;
-  padding: 0.75em 1em;
+  padding: 0.3em 0.6em;
   color: black;
   border-radius: 0.5em;
-  border: 1px solid black;
+  border: 2px solid black;
+  font-weight: 700;
 }
 
 .link-button:hover {
