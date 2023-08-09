@@ -178,6 +178,13 @@ section h1 {
   margin-bottom: 0;
 }
 
+#dl-section {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 4em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 4em;
+}
+
 #publication-section .publication-text {
   box-sizing: border-box;
   display: flex;
@@ -225,14 +232,14 @@ section h1 {
 .link-button {
   text-decoration: none;
   padding: 0.3em 0.6em;
-  color: black;
+  color: #895e51;
   border-radius: 0.5em;
-  border: 2px solid black;
+  border: 2px solid #895e51;
   font-weight: 700;
 }
 
 .link-button:hover {
-  background: black;
+  background: #895e51;
   color: white;
 }
 
@@ -379,6 +386,11 @@ section h1 {
   line-height: 1.5;
 }
 
+.row-centered {
+  display: flex;
+  justify-content: space-around;
+}
+
 /*---------------
 Responsive Design
 ---------------*/
@@ -397,7 +409,7 @@ Responsive Design
   }
 
   section {
-    margin-bottom: 4em;
+    margin-bottom: 6em;
   }
 
   .hide-on-mobile {
