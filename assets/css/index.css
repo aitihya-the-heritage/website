@@ -445,6 +445,10 @@ Responsive Design
     height: 280px;
   }
 
+  #dl-section {
+    text-align: left;
+  }
+
   #mobile-nav {
     display: none;
     position: absolute;
